@@ -1,0 +1,9 @@
+To reset your password click on Forgot Password on the login page.
+
+You can cancel your subscription from the account settings page.
+
+For payment issues contact support@example.com.
+
+To update your profile go to account settings and edit profile.
+
+You can change your email address from account settings.
