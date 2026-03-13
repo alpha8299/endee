@@ -10,5 +10,5 @@ question = st.text_input("Enter your question")
 if question:
     result = search_documents(question)
 
-    st.subheader("Answer")
+    st.subheader("Best Matching Answer")
     st.write(result)
