@@ -1,16 +1,14 @@
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
-# Load embedding model
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Load knowledge base documents
-with open("knowledge_base.txt", "r") as f:
-    documents = f.readlines()
+documents = [
+    "To reset your password, click on Forgot Password on the login page.",
+    "You can cancel your subscription from the account settings page.",
+    "For payment issues contact support@example.com."
+]
 
-documents = [doc.strip() for doc in documents if doc.strip() != ""]
-
-# Create embeddings for documents
 doc_embeddings = model.encode(documents)
 
 def search_documents(query):
