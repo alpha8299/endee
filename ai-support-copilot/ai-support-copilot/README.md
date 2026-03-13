@@ -1,3 +1,17 @@
+⚠️ Project Location
+
+This repository is forked from the official Endee vector database repository.
+
+My AI/ML project implementation can be found in the folder:
+
+ai-support-copilot/ai-support-copilot
+
+That folder contains the main project files:
+
+- app.py – main application
+- rag_pipeline.py – RAG pipeline logic
+- knowledge_base.txt – knowledge base data
+- requirements.txt – project dependencies
 # AI Customer Support Copilot (RAG Based)
 
 ## Project Overview
